@@ -1,0 +1,32 @@
+{
+  "devDependencies": {
+    "@fitbit/sdk": "6.1"
+  },
+  "fitbit": {
+    "appUUID": "aa8f1710-b26f-45f7-83d6-bd9ce1924aea",
+    "appType": "clockface",
+    "appDisplayName": "StressManager",
+    "iconFile": "resources/icon.png",
+    "wipeColor": "#3f51b5",
+    "requestedPermissions": [
+      "access_heart_rate",
+      "access_internet",
+      "access_user_profile",
+      "run_background",
+      "access_activity",
+      "access_location",
+      "access_exercise",
+      "access_sleep"
+    ],
+    "buildTargets": [
+      "atlas",
+      "vulcan"
+    ],
+    "i18n": {
+      "en-US": {
+        "name": "StressManager"
+      }
+    },
+    "defaultLanguage": "en-US"
+  }
+}

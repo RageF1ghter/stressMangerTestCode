@@ -1,0 +1,58 @@
+  
+.sensor-label {
+  font-family: System-Regular;
+  fill: white;
+  text-anchor: middle;
+  text-length: 32;
+  font-size: 20;
+  x: 50%;
+  y: $+5;
+}
+
+.sensor-data {
+  font-family: System-Light;
+  fill: white;
+  text-anchor: middle;
+  text-length: 64;
+  font-size: 20;
+  x: 50%;
+  y: $;
+}
+
+.application-fill           { fill: fb-yellow; }
+.foreground-fill            { fill: fb-white; }
+.background-fill            { fill: fb-black; }
+
+#container {
+  width: 100%;
+  height: 120;
+  x: 0;
+  y: 50%-60;
+}
+
+#background {
+  width: 100%;
+  height: 100%;
+}
+
+.cycle-item text {
+  font-size: 32;
+  x: 100%-10;
+  text-anchor: end;
+  fill: black;
+}
+
+#myButton #text {
+  text-buffer: "BUTTON";
+}
+
+#button-1 #text {
+  text-buffer: "SAVE";
+}
+
+.label {
+  fill: white;
+  x: 0;
+  y: 45%;
+  width: 100%;
+}

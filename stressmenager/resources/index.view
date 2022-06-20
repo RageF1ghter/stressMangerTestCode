@@ -1,0 +1,41 @@
+<svg>
+  <rect id="stress1" pointer-events="visible" x="0" y="0" width="45%" height="45%" fill="fb-cyan" />
+  <text id="notstressed" x="22%" y= "25%" fill="black" font-size="20" text-anchor="middle">No Stress</text>
+  <rect id="stress2" pointer-events="visible" x="55%" y="0" width="45%" height="45%" fill="fb-peach" />
+  <text id="littlestressed" x="75%" y= "25%" fill="black" font-size="20" text-anchor="middle">A Little</text>
+  <rect id="stress3" pointer-events="visible" x="0" y="55%" width="45%" height="45%" fill="fb-orange" />
+  <text id="modstressed" x="22%" y= "78%" fill="black" font-size="20" text-anchor="middle">Moderate</text>
+  <rect id="stress4" pointer-events="visible" x="55%" y="55%" width="45%" height="45%" fill="fb-red" />
+  <text id="verystressed" x="75%" y= "78%" fill="black" font-size="20" text-anchor="middle">A Lot</text>
+  <svg>
+    <image id="shoe_img" x="170" y="165" width="15%" height="15%" href="shoe.png" />
+    <image id="heart_img" x="30" y="165" width="10%" height="10%" href="heart_rate.png" />
+    <image id="fire_img" x="25" y="260" width="15%" height="15%" href="fire.png" />
+    <image id="battery_img" x="170" y="260" width="15%" height="15%" href="battery.png" />
+    <text id="clock-label" x="160" y="130"
+      fill="fb-green" font-size="100" font-family="System-Regular"
+      text-anchor="middle" text-length="20">00:00</text>
+    <text id="dayLabel" x="60" y="40"
+      fill="fb-lavender" font-size="30" font-family="System-Regular"
+      text-anchor="middle" text-length="20"></text>
+    <text id="monthLabel" x="125" y="40"
+      fill="fb-cyan" font-size="30" font-family="System-Regular"
+      text-anchor="middle" text-length="20"></text>
+    <text id="dateLabel" x="175" y="40"
+      fill="fb-peach" font-size="30" font-family="System-Regular"
+      text-anchor="middle" text-length="20"></text>
+    
+    <text id="hrm-data" x="120" y="200" font-size="40"
+             class="sensor-data"></text>
+    <text id="steps-data" x="270" y="200" font-size="40"
+             class="sensor-data"></text>
+    <text id="calorie-data" x="120" y="300" font-size="40"
+             class="sensor-data"></text>
+    <text id="battery-data" x="270" y="300" font-size="40"
+             class="sensor-data"></text>
+  </svg>
+  <text id="myText" x="250" y="40" text-anchor="middle" font-size="30" class="label">Syncing...</text>
+  <use id="promptButton" href="#text-button" class="text-button bottom application-fill" fill="fb-slate"/>
+  <text id="myPrompt" fill="white" x="8%" y="30%" width="90%" font-size="30" class="label">It's time for the survey!</text>
+  <text id="myPromptDescription" fill="white" x="13%" y="40%" width="80%"  font-size="20" class="label"> Go stresswatch.net to fill it out.</text>
+</svg>
